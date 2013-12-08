@@ -1,0 +1,49 @@
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	background: #f4f4f4 url(/digipass//static/img/grey_dots.jpg);
+	font-weight: 300;
+	font-size: 15px;
+	color: #333;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+span {
+	color: #AAA;
+	padding: 20px 30px 0px 0px;
+	line-height: 34px;
+	font-weight: 300;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+*,*:after,*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.container>header {
+	padding: 40px 10px 50px;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0 1px rgba(255, 255, 255, 0.8);
+	margin-bottom: 30px;
+}
+
+.logo {
+	width: 250px;
+	margin-top: 10px;
+}
+
+.company-icon-small {
+	width: 16px;
+	margin-right: 5px;
+}
+
+
